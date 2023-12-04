@@ -1,0 +1,14 @@
+name
+     rese-docker-busid-workflow
+on:
+  push:
+    branches: none F I main ]
+  pull_request
+    branches: none F I main 1
+  F Allows you to run this workflow manually from
+  workflow_dispatch:
+Jobs:
+  build-container:
+    runs-on: ubuntu-latest
+    steps:
+     USAST
